@@ -1,0 +1,20 @@
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+    "identifier": "12345678",
+    "password": "P@ssw0rd",
+    "confirmPassword": "P@ssw0rd",
+    "userType": "Employer"
+}
+
+###
+POST http://localhost:8080/signin
+Content-Type: application/json
+
+{
+    "identifier": "12345678",
+    "password": "P@ssw0rd"
+}
+
+###
